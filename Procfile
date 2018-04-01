@@ -1,1 +1,1 @@
-web: gunicorn run:dd-flaskvue
+web: gunicorn run:app
