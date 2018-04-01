@@ -25,7 +25,7 @@ export default {
       this.randomNumber = this.getRandomFromBackend()
     },
     getRandomFromBackend () {
-      const path = `http://localhost:5000/api/random`
+      const path = `http://dd-flask-vue.herokuapp.com/api/random`
       axios.get(path)
       .then(response => {
         this.randomNumber = response.data.randomNumber
