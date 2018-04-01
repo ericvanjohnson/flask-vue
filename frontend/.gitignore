@@ -263,4 +263,13 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Node.js
+frontend/node_modules/
+
+
+# Python
+__pycache__
+backend/venv
+*.pyc
+
 # End of https://www.gitignore.io/api/osx,vim,python,windows,pycharm,virtualenv,visualstudiocode
